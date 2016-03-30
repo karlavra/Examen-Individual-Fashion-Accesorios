@@ -1,0 +1,91 @@
+footer {
+  background-color: #444444;
+  color: white;
+  padding: 2% 0; }
+  footer p {
+    display: inline-block; }
+  footer a {
+    color: #B56E6E; }
+  footer .pagos {
+    text-align: right; }
+
+.prefooter {
+  background-color: #F1F1F1;
+  padding: 2% 0; }
+  .prefooter i {
+    font-size: 1.3em; }
+  .prefooter a {
+    color: black; }
+  .prefooter .cajaicon {
+    background-color: white;
+    display: inline-block;
+    padding: 3% 5%; }
+  .prefooter .circleicon {
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 12px; }
+  .prefooter .cajacontac {
+    width: 80%;
+    display: inline-block; }
+
+.bonnus {
+  padding: 2% 0; }
+  .bonnus .cajabonnus {
+    BORDER: 1px solid gray;
+    padding: 2%; }
+    .bonnus .cajabonnus i {
+      font-size: 2.5em; }
+    .bonnus .cajabonnus div:first-child {
+      display: inline-block;
+      vertical-align: top;
+      padding: 4%;
+      border-right: 1px solid gray;
+      margin-top: 1px;
+      margin-right: 10px; }
+    .bonnus .cajabonnus div:nth-child(2) {
+      display: inline-block;
+      width: 75%; }
+
+.blog .cajablog div, .blog .cajablog img {
+  width: 100%; }
+
+.separacion {
+  text-align: center; }
+  .separacion hr {
+    border-top: 4px double gray;
+    margin-top: 14px; }
+  .separacion i {
+    font-size: 2em;
+    margin: 0 5px; }
+  .separacion h3 {
+    display: inline-block;
+    margin: 3px; }
+  .separacion .container div {
+    padding: 0; }
+
+.catalogo {
+  padding: 2%; }
+  .catalogo .cajaimage {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    border: 1px solid gray;
+    padding: 2%;
+    vertical-align: top;
+    margin-bottom: 30px; }
+    .catalogo .cajaimage img {
+      width: 100%; }
+  .catalogo .cajatext {
+    display: inline-block; }
+
+.marcas .logo {
+  width: 100%; }
+  .marcas .logo img {
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

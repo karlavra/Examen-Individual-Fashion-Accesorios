@@ -1,0 +1,121 @@
+
+footer{
+	background-color:#444444;
+	color:white;
+	padding:2% 0;
+	p{
+		display: inline-block;
+	}
+	a{
+		color:#B56E6E;
+	}
+	.pagos{
+		text-align: right;
+	}
+}
+.prefooter{
+	background-color:#F1F1F1;
+	padding:2% 0;
+	i{
+	    font-size: 1.3em;
+	    }
+	a{
+		color:black;
+	}    
+	.cajaicon{
+	    background-color: white;
+	    display: inline-block;
+	    padding: 3% 5%;
+	}
+	.circleicon{
+	    background-color: white;
+	    text-align: center;
+	    border-radius: 100%;
+	    width: 40px;
+	    height: 40px;
+	    display: inline-block;
+	    vertical-align: top;
+	    padding-top: 12px;
+	}
+	.cajacontac{
+		width: 80%;
+		display: inline-block;
+	}
+}
+.bonnus{
+	padding: 2% 0;
+	.cajabonnus{
+		BORDER: 1px solid gray;
+    	padding: 2%;
+    	i{
+    		font-size: 2.5em;
+    	}
+    	div{
+    		&:first-child{
+    			display: inline-block;
+			    vertical-align: top;
+			    padding: 4%;
+			    border-right: 1px solid gray;
+			    margin-top: 1px;
+			    margin-right: 10px;
+    		}
+    		&:nth-child(2){
+    			display: inline-block;
+    			width: 75%;
+    		}
+    	}
+	}
+}
+.blog{
+	.cajablog{
+		div,img{
+			width: 100%;
+		}
+	}
+}
+.separacion{
+	text-align: center;
+	hr{
+		border-top: 4px double gray;
+		margin-top: 14px;
+	}
+	i{
+		font-size: 2em;
+		margin: 0 5px;
+	}
+	h3{
+		display: inline-block;
+	        margin: 3px;
+	}
+	.container{
+		div{
+			padding:0;
+		}
+	}   
+}
+.catalogo{
+	padding:2%;
+	.cajaimage{
+		display: inline-block;
+	    width: 170px;
+	    height: 170px;
+	    border: 1px solid gray;
+	    padding: 2%;
+	    vertical-align: top;
+	    margin-bottom: 30px;
+	    img{
+	    	width: 100%
+	    }
+	}
+	.cajatext{
+		display: inline-block;
+	}
+}
+.marcas{
+	.logo{
+		width: 100%;
+		img{
+			width: 100%;
+		}
+	}
+}

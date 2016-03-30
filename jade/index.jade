@@ -1,0 +1,224 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Accesorios Fashion
+        link(rel="stylesheet" type="text/css" href="css/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="css/font-awesome.min.css") 
+        link(rel="stylesheet" type="text/css" href="sass/main.css")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")  
+    body
+        mixin textblog
+            h4 THE SAMPLE HEADING TITLE
+            H6 27/11/15
+            p Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...
+            p Read more..
+
+        mixin price    
+            p Deliver Wide
+            h5 $242.00
+            h4 $218.00
+            a.btn.btn-default(href="#" role="button") Link
+
+        include header
+        section.banner
+            div.container
+                div.caja
+                    H1 AUTUMN/WINTER LOOKBOOK
+                h2 -2016 COLLECTION - 
+                div.col-md-3.col-md-offset-9
+                    div.ofertas
+                        div
+                            img(src="images/cart-1.jpg")
+                        div        
+                            p Aliquam Consequat
+                            p 1 x $500 
+                            i
+                        div
+                            img(src="images/cart-2.jpg")
+                        div        
+                            p Aliquam Consequat
+                            p 1 x $500 
+                            i
+                        h4 Sub-Total 
+                            span$700
+                        h4 Eco Tax (-2.00) 
+                            span$7.00
+                        h4 VAT (20%) 
+                            span$40.00 
+        section.flyers
+            div.container
+                div.col-md-5
+                    div
+                        div
+                            hr
+                            h2 CCESSORIES
+                            H2 COLLECTION 
+                div.col-md-7
+                    div
+                        h2 NEW ARRIVAL
+                    P SHOP NOW
+                    i                 
+        section.separacion
+            div.container
+                div.col-md-4
+                    hr
+                div.col-md-4
+                    i.fa.fa-angle-left
+                    H3 LATEST
+                    H3 BESTSELLER
+                    H3 SALE
+                    I.fa.fa-angle-right
+                div.col-md-4
+                    hr
+        section.ofertas
+            div.container
+                div.col-md-3
+                    div
+                        img(src="images/a1.jpg")
+                        p Deliver Wide
+                        i
+                        h4 $218.00
+                div.col-md-3
+                    div
+                        img(src="images/b1.jpg")
+                        p Deliver Wide
+                        i
+                        h4 $218.00
+                div.col-md-3
+                    div
+                        img(src="images/c1.jpg")
+                        p Deliver Wide
+                        i
+                        h4 $218.00
+                div.col-md-3
+                    div
+                        img(src="images/d1.jpg")
+                        p Deliver Wide
+                        i
+                        h4 $218.00                                                   
+        section.marcas
+            div.container
+                div.col-md-2
+                    div.logo
+                        img(src="images/client1.jpg")
+                div.col-md-2
+                    div.logo
+                        img(src="images/client2.jpg")
+                div.col-md-2
+                    div.logo
+                        img(src="images/client3.jpg")
+                div.col-md-2
+                    div.logo
+                        img(src="images/client4.jpg")
+                div.col-md-2
+                    div.logo
+                        img(src="images/client5.jpg")
+                div.col-md-2
+                    div.logo
+                        img(src="images/client6.jpg")                                           
+        section.separacion
+            div.container
+                div.col-md-3
+                    hr
+                div.col-md-6
+                    i.fa.fa-angle-left
+                    H3 CLOTHING
+                    H3 EQUIPMENTS
+                    H3 JEWELLERY
+                    i.fa.fa-angle-right
+                div.col-md-3
+                    hr
+        section.catalogo
+            div.container
+                div.row
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/a2.jpg")
+                        div.cajatext
+                            +price
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/d2.jpg")
+                        div.cajatext
+                            +price
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/g2.jpg")
+                        div.cajatext
+                            +price
+                div.row
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/c2.jpg")
+                        div.cajatext
+                            +price
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/c2.jpg")
+                        div.cajatext
+                            +price
+                    div.col-md-4
+                        div.cajaimage
+                            img(src="images/e2.jpg")
+                        div.cajatext
+                            +price
+        section.separacion
+            div.container
+                div.col-md-5
+                    hr
+                div.col-md-2
+                    i.fa.fa-angle-left
+                    H3 BLOG
+                    i.fa.fa-angle-right
+                div.col-md-5
+                    hr                    
+        section.blog
+            div.container
+                div.col-md-3
+                    div.cajablog
+                        div
+                            img(src="images/blog2.jpg")
+                        +textblog                  
+                div.col-md-3
+                    div.cajablog
+                        div
+                            img(src="images/blog1.jpg")
+                        +textblog                  
+                div.col-md-3
+                    div.cajablog
+                        div
+                            img(src="images/blog2.jpg")
+                        +textblog                  
+                div.col-md-3
+                    div.cajablog
+                        div
+                            img(src="images/blog3.jpg")
+                        +textblog                                          
+        section.bonnus
+            div.container
+                div.col-md-4
+                    div.cajabonnus
+                        div
+                            i.fa.fa-phone-square
+                        div        
+                            h5 ORDER ONLINE NOW
+                            P Call Us:(0123) 456 789
+                div.col-md-4
+                    div.cajabonnus
+                        div
+                            i.fa.fa-plane
+                        div        
+                            h5 FREE WORDLDWIDE SHIPPING
+                            P On Order Over $100
+                div.col-md-4
+                    div.cajabonnus
+                        div
+                            i.fa.fa-money
+                        div        
+                            h5 30 DAY MONEY BACK 100%
+                            P Satisfaction guarantee                                    
+        include footer                           
+        script(src="js/bootstrap.min.js")
+        script(src="js/jquery.js")                  
